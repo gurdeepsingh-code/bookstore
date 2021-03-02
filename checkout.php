@@ -211,9 +211,7 @@
 
                                 if($checkoutDB_flag == true && $paymentDB_flag == true) {
                                     
-                                    echo '<div class="alert alert-success">
-                                        Application Uploaded
-                                    </div>';
+                                    header("Location: order-details.php");
                                 }
 
                             }
@@ -223,7 +221,7 @@
                     ?>
                     
 
-                <form action="order-details.php" method="POST" class="mb-5">
+                <form action="checkout.php" method="POST" class="mb-5">
                     <div class="row">
                         <div class="col-md-6 mb-3">
                             <label for="firstName">First name</label>

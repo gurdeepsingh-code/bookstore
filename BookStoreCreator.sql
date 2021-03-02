@@ -1,3 +1,5 @@
+CREATE DATABASE If NOT EXISTS bookstorecreator;
+
 CREATE TABLE `bookinventory` (
   `id` int(11) NOT NULL,
   `name` varchar(200) NOT NULL,
